@@ -66,9 +66,9 @@ if error_message == []:
     print("Your password is valid")
     if count < 10:
         print("Weak strength")
-    if count < 12:
+    elif count < 12:
         print("Good strength")
-    if count >= 12:
+    elif count >= 12:
         print("Excellent strength")
 #If there are errors it will not print how weak or strong the password is        
 else:
