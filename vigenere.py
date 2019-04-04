@@ -38,10 +38,10 @@ for i in combined:
 for i in range(len(phrase)):
     if phrase[i] == " ":
         spaces += [i]
-print(spaces)
+
 
 phrase = phrase.replace(" ", "")
-print(phrase)
+
 
 if error == True:
     print("Please enter valid characters!")
@@ -118,7 +118,7 @@ for x in spaces:
     final = add_space(final, x)
 
 #Prints the encoded/decoded word
-print(final)
+print(final, "this is the decoded/encoded message")
 
 
 
